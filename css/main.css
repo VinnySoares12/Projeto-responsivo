@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+html{
+    font-family: sans-serif;
+}
+/* title */
+h1,h2,h3,h4,h5,h6{
+    font-family: "Oxygen", arial;
+}
+/* Header */
+.top-header{
+    text-align: center;
+}
+
+.header-logo{
+    margin: .5em;
+}
+
+/* Nav */
+.nav-bar{
+    background: #612674;
+    text-align: center;
+}
+
+.nav-bar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+.nav-bar a:hover {
+    background: #7c3792;
+}
